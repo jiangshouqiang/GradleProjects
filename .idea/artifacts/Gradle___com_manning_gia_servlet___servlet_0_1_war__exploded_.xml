@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.manning.gia:servlet : servlet-0.1.war (exploded)">
+    <output-path>$PROJECT_DIR$/out/artifacts/servlet/exploded/servlet-0.1.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="servlet/web/Web Gradle : servlet-0.1.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servlet" />
+          <element id="dir-copy" path="$PROJECT_DIR$/servlet/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="Gradle02-repository-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="repository" />
+            <element id="dir-copy" path="$PROJECT_DIR$/repository/build/resources/main" />
+          </element>
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.1.2/3375e43c620df4f1114959400ff9bb90d12a2feb/jstl-1.1.2.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/servlet/exploded/servlet-0.1.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
